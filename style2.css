@@ -1,0 +1,90 @@
+.title{
+    color: green;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #92e4a1;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sorteio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(8, 79, 7, 0.1);
+    text-align: center;
+    width: 600px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none;
+}
+
+.sortear {
+    background-color: #1d9d48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.sortear:hover {
+    background-color: #55b578;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1dc954;
+}
+
+.volta{
+    margin-left: 450px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #269d22;
+    color: white;
+}
+
+.volta:hover{
+    background-color:#83ff7f;
+}
